@@ -3,7 +3,7 @@ package main;
 public class Cafe {
     protected final CafeSabores nomeDoSabor;
 
-    protected Cafe(CafeSabores nomeDoSabor) {
+    public Cafe(CafeSabores nomeDoSabor) {
         super();
         this.nomeDoSabor = nomeDoSabor;
     }
@@ -12,7 +12,7 @@ public class Cafe {
         return nomeDoSabor;
     }
 
-    protected CafeLatteArte applyLatteArt(CafeLatteArte latteArte) {
+    public CafeLatteArte applyLatteArte(CafeLatteArte latteArte) {
         return latteArte;
     }
 }

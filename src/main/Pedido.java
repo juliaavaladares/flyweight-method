@@ -10,9 +10,6 @@ public class Pedido {
 
     public static Pedido of(CafeSabores nomeSabor, CafeLatteArte latteArte, int tableNumber) {
         Cafe Cafe = CafeFactory.makeCafe(nomeSabor, latteArte);
-        System.out.printf("Serving to table '%d'.\n", tableNumber);
-        System.out.println("------------------------------------------------------");
-
         return new Pedido(Cafe);
     }
 

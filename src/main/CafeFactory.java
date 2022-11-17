@@ -14,7 +14,7 @@ public class CafeFactory {
             cafes.put(nomeSabor, Cafe);
         }
 
-        Cafe.applyLatteArt(latteArte);
+        Cafe.applyLatteArte(latteArte);
 
         return Cafe;
 
