@@ -9,7 +9,7 @@ public class Pedido {
     }
 
     public static Pedido of(CafeSabores nomeSabor, CafeLatteArte latteArte, int tableNumber) {
-        Cafe Cafe = CafeFactory.makeCafe(nomeSabor, latteArte);
+        Cafe Cafe = CafeFactory.fazerCafe(nomeSabor, latteArte);
         return new Pedido(Cafe);
     }
 

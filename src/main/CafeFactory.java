@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class CafeFactory {
     private static Map<CafeSabores, Cafe> cafes = new HashMap<CafeSabores, Cafe>();
 
-    public static Cafe makeCafe(CafeSabores nomeSabor, CafeLatteArte latteArte) {
+    public static Cafe fazerCafe(CafeSabores nomeSabor, CafeLatteArte latteArte) {
         Cafe Cafe = cafes.get(nomeSabor);
 
         if (Cafe == null) {
@@ -20,7 +20,7 @@ public class CafeFactory {
 
     }
 
-    public static int getNumberOfCafe() {
+    public static int getNumeroDeCafes() {
         return cafes.size();
     }
 }

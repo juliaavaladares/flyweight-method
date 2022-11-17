@@ -1,7 +1,7 @@
 package main;
 
 public class Cafe {
-    protected final CafeSabores nomeDoSabor;
+    private CafeSabores nomeDoSabor;
 
     public Cafe(CafeSabores nomeDoSabor) {
         super();
